@@ -6,7 +6,10 @@
 # Github Action are not working due to multi folders setup
 
 
-##### docker file task #####
+##### docker file task ##### due to secuity control created this from server
 ## As there was no docker file on git shared by HR team, I have created the normal file for this
 # touch Dockerfile 
 # docker build -t centos .
+# docker image
+# docker start "image-name" as per above list of docker image
+# docker ps -a

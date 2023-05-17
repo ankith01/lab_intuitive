@@ -1,2 +1,1 @@
-FROM centos
-PORT 8081
+FROM ubuntu
