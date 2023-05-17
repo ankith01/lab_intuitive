@@ -1,6 +1,6 @@
 # Define a s3 bucket to store terraform state file.
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = format("terraform1-state-%s", local.region)
+  bucket        = format("terraform2-state-%s", local.region)
   force_destroy = false
   lifecycle {
     ignore_changes = [bucket]
