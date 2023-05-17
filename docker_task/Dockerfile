@@ -1,2 +1,2 @@
 FROM centos
-PORT 8080
+PORT 8081
