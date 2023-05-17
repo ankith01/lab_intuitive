@@ -34,7 +34,7 @@ module "lab_s3bucket" {
   name = "Lab_server"
   ami                = "ami-0889a44b331db0194"
   instance_type               = "t3.small" 
-  subnet_id                   = "subnet-045829cfd4d2a831a"
+  subnet_id                   = module.vpc.private_subnets_id
   vpc_security_group_ids      = module.vpc.security_groups_ids
 
   enable_volume_tags = false
